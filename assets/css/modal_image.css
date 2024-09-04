@@ -1,0 +1,58 @@
+/* The Modal (background) */
+#myModal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.1); /* Black w/ opacity */
+    z-index: 98;
+}
+
+#loading {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 100px;
+    color: #f1f1f1;
+    opacity: 1;
+    transition: opacity .5s ease-in, visibility .5s;
+    visibility: visible;
+    z-index: 9999;
+}
+
+/* Modal Content (Image) */
+#modal-content-image {
+    margin: 0 auto 100px auto;
+    display: block;
+    max-width: 85%;
+    animation-name: none;
+    animation-duration: 0.6s;
+}
+
+@keyframes zoom {
+    from {transform:scale(0)}
+    to {transform:scale(1)}
+}
+
+/* The Close Button */
+#close-image {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+#close-image:hover,
+#close-image:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
