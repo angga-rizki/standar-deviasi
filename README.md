@@ -5,11 +5,11 @@ Default akun :
 - username: nia
 - password: nia
 
-CodeIgniter4
+CodeIgniter4 <br />
 MySQL
 
-Library:
-Bootstrap 4.5.0
-DataTables 1.10.21
-jQuery 3.5.1
-spreadsheet-reader-0.5.11
+Library: <br />
+Bootstrap 4.5.0 <br />
+DataTables 1.10.21 <br />
+jQuery 3.5.1 <br />
+spreadsheet-reader-0.5.11 <br />
