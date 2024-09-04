@@ -1,5 +1,5 @@
 # standar-deviasi
-Aplikasi web sistem informasi untuk pehitungan nilai standar deviasi. Di dalam web, input dilakukan dengan meng-upload file excel berisi nilai - nilai variabel yang akan dihitung.
+Aplikasi web sistem informasi untuk pehitungan nilai standar deviasi. Di dalam web, input data dilakukan dengan meng-upload file excel berisi nilai - nilai variabel yang akan dihitung.
 
 Default akun :
 - username: nia
